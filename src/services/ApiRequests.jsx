@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = env.SERVER_URL
+const BASE_URL = ENV.SERVER_URL
 
 const signUp = async (username, email, password, passwordConfirmation) => {
   try {
